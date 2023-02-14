@@ -1,0 +1,18 @@
+goCopy codepackage main
+import (
+             "fmt"
+)
+func main() {
+	Name:= "BEAIAH WAKUMA"
+	Email:= "wakumabenaiah@gmail.com"
+	Matriculationnumber:= "UG17/MDHA/1004"
+	Programming:= "GO"
+	Bioinformatics:= "Genomics"
+	Slack:= "@bennywak"
+    fmt.println("Name:", Name)
+    fmt.println("Email:", Email)
+    fmt.println("Matriculation Number:", Matriculationnumber)
+    fmt.println("Programmin language used:", Programming)
+	fmt.println("Bioinformatics subspeciality:", Bioinformatics)
+	fmt.println("Slack username:", Slack)
+}
